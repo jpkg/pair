@@ -1,2 +1,2 @@
-dependencies=
-output-jar=pair.jar
+dependencies=test-manager
+output-jar=bin/pair-${branch}.jar
