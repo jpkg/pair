@@ -1,12 +1,11 @@
 package jpkg.pair;
 
 import static org.junit.Assert.*;
-import jpkg.isarray.TestIsArray;
 import jpkg.test.TestManager;
 
 import org.junit.Test;
 
-public class TestPair {
+public class PairTest {
 
 	public static void main(String[] args) {
 		test();
@@ -14,8 +13,7 @@ public class TestPair {
 	}
 	
 	public static void test() {
-		TestManager.addTest(TestPair.class);
-		TestIsArray.test();
+		TestManager.addTest(PairTest.class);
 	}
 	
 	@Test
